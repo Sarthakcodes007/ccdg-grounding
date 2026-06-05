@@ -1,0 +1,30 @@
+# Large cache files — do not upload
+*.json
+phrase_cache.json
+neg_cache.json
+
+# Model weights — too large for GitHub
+*.pth
+*.pth.tar
+
+# Checkpoints and outputs
+checkpoints/
+outputs/
+runs/
+
+# Training logs
+*.log
+training_log*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Data
+data/
+datasets/
+
+# Environment
+.env
+venv/
